@@ -1,0 +1,31 @@
+
+
+.flex_class {
+  display: flex;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+.gap5 {
+  gap: 0.5rem;
+}
+
+@media (min-width: 1080px) {
+  .show1080 {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hide1080 {
+    display: none;
+  }
+}
